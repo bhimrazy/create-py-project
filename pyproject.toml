@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "create-py-project"
 version = "0.1.0"
-description = ""
+description = "Great CLI tool to scaffold python projects."
 authors = ["BHIMRAJ YADAV <bhimrajyadav977@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-create-py-project = "create_py_project.main:app"
+create-py-project = "create_py_project.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

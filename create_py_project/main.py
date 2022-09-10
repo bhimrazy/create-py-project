@@ -1,0 +1,37 @@
+import os
+import typer
+import shutil
+from create_py_project.utils import BASE_DIR, generate_project
+
+app = typer.Typer()
+
+
+@app.callback()
+def callback():
+    """
+    Awesome Tool to create a python projects.
+    """
+
+
+def main():
+    project_name = typer.prompt("What's your Project name?")
+
+    templates = {"1": "template-vannila", "2": "template-fastapi-starter"}
+
+    prompt_text = """Choose Project Template:
+    1. Vannila Python Project
+    2. FastAPI Project
+    """
+    template = typer.prompt(prompt_text)
+
+    if template not in templates:
+        print("ERROR:Select a valid Number")
+        return
+
+    template_name = templates[template]
+
+    generate_project(name=project_name, template=template_name)
+
+
+if __name__ == "__main__":
+    typer.run(main)
