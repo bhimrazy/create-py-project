@@ -16,11 +16,15 @@ def callback():
 def main():
     project_name = typer.prompt("What's your Project name?")
 
-    templates = {"1": "template-vannila", "2": "template-fastapi-starter"}
+    templates = {"1": "template-vannila",
+                 "2": "template-fastapi-starter",
+                 "3": "template-django"
+                 }
 
     prompt_text = """Choose Project Template:
     1. Vannila Python Project
     2. FastAPI Project
+    3. Django Project
     """
     template = typer.prompt(prompt_text)
 
