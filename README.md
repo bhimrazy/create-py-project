@@ -23,7 +23,7 @@ Install using pip
     
 ## Usage/Examples
 
-```shell
+```
   $ create-py-project
   What's your Project name?: my-project
   Choose Project Template:
