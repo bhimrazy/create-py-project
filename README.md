@@ -29,6 +29,8 @@ Install using pip
   Choose Project Template:
     1. Vannila Python Project
     2. FastAPI Project
+    3. Django Project
+    4. Django Project with drf and auth
     : 1
   
   Generating....
