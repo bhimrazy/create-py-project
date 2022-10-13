@@ -43,7 +43,7 @@ Install using pip
 ```
 
 ## 👏 How to Contribute
-The main purpose of this repository is to continue evolving create-py-project. We want to make contributing to this project as easy and transparent as possible. Read below to learn how you can take part in improving create-py-project.
+The main purpose of this repository is to continue evolving create-py-project. We want to make contributing to this project as easy and transparent as possible. Read below to learn how you can take part in improving this project.
 
 ### Contributing Guide
 
