@@ -24,7 +24,7 @@ clear and has sufficient instructions to be able to reproduce the issue.
 Include the following information in your post:
 
 - Describe what you expected to happen.
-- If possible, include a `[minimal reproducible example]` to help us
+- If possible, include a [minimal reproducible example][minimal reproducible example] to help us
   identify the issue. This also helps check that the issue is not with
   your own code.
 - Describe what actually happened. Include the full traceback if there
