@@ -42,12 +42,38 @@ Install using pip
   Author:@bhimrazy
 ```
 
+## 👏 How to Contribute
+The main purpose of this repository is to continue evolving create-py-project. We want to make contributing to this project as easy and transparent as possible. Read below to learn how you can take part in improving create-py-project.
 
-## Authors
+### [Contributing Guide][contribute]
+
+The create-py-project welcomes, and depends on, contributions from developers and users in the open source community. 
+Read our [**Contributing Guide**][contribute] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to create-py-project.
+
+[contribute]: CONTRIBUTING.md
+
+### Code of Conduct
+
+Everyone interacting in the create-py-project's codebases, issue trackers, and
+discussion forums is expected to follow the [PyPA Code of Conduct].
+
+[PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
+
+
+## Author
 
 - [@bhimrazy](https://www.github.com/bhimrazy)
 
+<!-- ## ✨ Contributors
 
+Thanks goes to these incredible people:
+
+<a href="https://github.com/jmeisele/ml-ops/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jmeisele/ml-ops" />
+</a> -->
 
 ## License
-This project is licensed under the terms of the MIT license.
+
+This project is licensed under the terms of the MIT license, as found in the [LICENSE][license] file.
+
+[license]: LICENSE
