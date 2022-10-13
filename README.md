@@ -31,7 +31,7 @@ Install using pip
     2. FastAPI Project
     3. Django Project
     4. Django Project with drf and auth
-    5. Ml/DL Project
+    5. ML/DL Project
     : 1
 
   Generating....
