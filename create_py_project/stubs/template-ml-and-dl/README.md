@@ -13,6 +13,9 @@ Follow these commands to run the project.
     #install packages from requirements.txt file
     $ pip install -r requirements.txt
 
+    # Training
+    $ python main.py --task train
+
     # Run app
     $ uvicorn app.api:app --reload # dev
     $ uvicorn app.api:app # prod

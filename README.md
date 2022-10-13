@@ -20,7 +20,7 @@ Install using pip
 ```bash
   pip install git+https://github.com/bhimrazy/create-py-project
 ```
-    
+
 ## Usage/Examples
 
 ```
@@ -31,25 +31,29 @@ Install using pip
     2. FastAPI Project
     3. Django Project
     4. Django Project with drf and auth
+    5. Ml/DL Project
     : 1
-  
+
   Generating....
   Completed.
   cd into my-project directory
   and then follow the instructions in the README.md file
-    
+
   Thank you for using create-py-project.^_^
   Author:@bhimrazy
 ```
+
 ## Roadmap
+
 > On the way.
 
 ## 👏 How to Contribute
+
 The main purpose of this repository is to continue evolving create-py-project. We want to make contributing to this project as easy and transparent as possible. Read below to learn how you can take part in improving this project.
 
 ### Contributing Guide
 
-The create-py-project welcomes, and depends on, contributions from developers and users in the open source community. 
+The create-py-project welcomes, and depends on, contributions from developers and users in the open source community.
 Read our [**Contributing Guide**][contribute] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to create-py-project.
 
 [contribute]: CONTRIBUTING.md
@@ -59,8 +63,7 @@ Read our [**Contributing Guide**][contribute] to learn about our development pro
 Everyone interacting in the create-py-project's codebases, issue trackers, and
 discussion forums is expected to follow the [PyPA Code of Conduct].
 
-[PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
-
+[pypa code of conduct]: https://www.pypa.io/en/latest/code-of-conduct/
 
 ## Author
 
