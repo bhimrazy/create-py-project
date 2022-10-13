@@ -45,7 +45,7 @@ Install using pip
 ## 👏 How to Contribute
 The main purpose of this repository is to continue evolving create-py-project. We want to make contributing to this project as easy and transparent as possible. Read below to learn how you can take part in improving create-py-project.
 
-### [Contributing Guide][contribute]
+### Contributing Guide
 
 The create-py-project welcomes, and depends on, contributions from developers and users in the open source community. 
 Read our [**Contributing Guide**][contribute] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to create-py-project.
