@@ -16,4 +16,4 @@ def test_generate_project():
         project_name = "MyNewApp"
         template = "template-vannila"
         generate_project(name=project_name, template=template, dest=tmpdirname)
-        assert os.path.isdir(os.path.join(tmpdirname, project_name)) == True
+        assert os.path.isdir(os.path.join(tmpdirname, project_name))

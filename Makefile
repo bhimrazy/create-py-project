@@ -16,7 +16,7 @@ help:
 .PHONY: style
 style:
 	black .
-	# flake8
+	flake8
 	python -m isort .
 
 # Environment
