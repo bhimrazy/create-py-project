@@ -17,7 +17,7 @@ def generate_project(name: str, template: str, dest=""):
         shutil.copytree(project_path, dest_path)
 
     end_text = f"""\nCompleted.
-    cd into {name} directory
+    cd into {dest_path} directory
     and then follow the instructions in the README.md file
     """
     print(end_text)
