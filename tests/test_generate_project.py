@@ -1,5 +1,5 @@
 from create_py_project import __version__
-
+from create_py_project.utils import 
 
 def test_version():
     """Assert the version of the package.
