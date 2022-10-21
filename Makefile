@@ -39,7 +39,7 @@ clean: style
 # Test
 .ONESHELL:
 test:
-	pytest tests
+	pytest tests -vs
 
 # Build
 .ONESHELL:
