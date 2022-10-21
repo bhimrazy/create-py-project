@@ -9,6 +9,7 @@ help:
 	@echo "style   : executes style formatting."
 	@echo "clean   : cleans all unnecessary files."
 	@echo "test    : execute tests."
+	@echo "lint    : execute linter."
 	@echo "build   : build package."
 	@echo "publish : publish package."
 
@@ -51,3 +52,9 @@ build:
 .ONESHELL:
 publish:
 	twine upload dist/*
+
+
+# Lint
+.ONESHELL:
+lint:
+	pylint $(git ls-files '*.py')
