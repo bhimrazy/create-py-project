@@ -1,5 +1,6 @@
-from django.http import JsonResponse
 from http import HTTPStatus
+
+from django.http import JsonResponse
 
 
 def index(request):

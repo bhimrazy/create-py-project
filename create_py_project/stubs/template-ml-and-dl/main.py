@@ -1,6 +1,5 @@
 import argparse
 
-
 if __name__ == "__main__":
 
     # parse command line args

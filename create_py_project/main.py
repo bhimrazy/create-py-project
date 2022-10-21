@@ -1,6 +1,8 @@
 import os
-import typer
 import shutil
+
+import typer
+
 from create_py_project.utils import BASE_DIR, generate_project
 
 app = typer.Typer()
