@@ -1,7 +1,6 @@
 attrs==21.4.0
 click==8.1.2
 colorama==0.4.4
--e git+https://github.com/bhimrazy/create-py-project.git@f9720ff180126b423501b33247946435f690add6#egg=create_py_project
 more-itertools==8.12.0
 packaging==21.3
 pluggy==0.13.1
