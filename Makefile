@@ -9,7 +9,8 @@ help:
 	@echo "style   : executes style formatting."
 	@echo "clean   : cleans all unnecessary files."
 	@echo "test    : execute tests."
-	@echo "build    : build package."
+	@echo "build   : build package."
+	@echo "publish : publish package."
 
 # Styling
 .PHONY: style
@@ -33,7 +34,7 @@ clean: style
 	find . | grep -E ".pytest_cache" | xargs rm -rf
 	find . | grep -E ".ipynb_checkpoints" | xargs rm -rf
 	find . | grep -E ".trash" | xargs rm -rf
-	rm -rf .coverage dist *.egg-info
+	rm -rf .coverage
 
 # Test
 .ONESHELL:
@@ -43,4 +44,10 @@ test:
 # Build
 .ONESHELL:
 build:
+	rm -rf dist *.egg-info
 	python setup.py sdist bdist_wheel
+
+# Publish
+.ONESHELL:
+publish:
+	twine upload dist/*
