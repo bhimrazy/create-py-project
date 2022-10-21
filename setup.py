@@ -6,7 +6,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
     requirements = f.read()
 
 setup(
-    name="create-py-proj",
+    name="create-py-project-by-bhimrazy",
     version="0.1.0",
     author="Bhimraj Yadav",
     author_email="bhimrajyadav977@gmail.com",

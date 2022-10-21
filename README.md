@@ -18,6 +18,8 @@
 Install using pip
 
 ```bash
+  pip install create-py-project-by-bhimrazy
+  # or
   pip install git+https://github.com/bhimrazy/create-py-project
 ```
 
