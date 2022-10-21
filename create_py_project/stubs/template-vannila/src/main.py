@@ -11,7 +11,7 @@ def find_sum(a: int, b: int) -> int:
     Returns:
         int: Sum
     """
-    return a+b
+    return a + b
 
 
 if __name__ == "__main__":
@@ -20,11 +20,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Find Sum")
 
     # system/input/output
-    parser.add_argument('--num1', type=int, default=1, help="first number")
-    parser.add_argument('--num2', type=int, default=1, help="second number")
+    parser.add_argument("--num1", type=int, default=1, help="first number")
+    parser.add_argument("--num2", type=int, default=1, help="second number")
 
     # Execute the parse_args() method
     args = parser.parse_args()
 
     s = find_sum(args.num1, args.num2)
-    print(f'The sum is : {s}')
+    print(f"The sum is : {s}")

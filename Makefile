@@ -34,7 +34,8 @@ clean: style
 	find . | grep -E ".pytest_cache" | xargs rm -rf
 	find . | grep -E ".ipynb_checkpoints" | xargs rm -rf
 	find . | grep -E ".trash" | xargs rm -rf
-	rm -rf .coverage
+	rm -rf .coverage build dist *.egg-info
+
 
 # Test
 .ONESHELL:
@@ -44,7 +45,6 @@ test:
 # Build
 .ONESHELL:
 build:
-	rm -rf dist *.egg-info
 	python setup.py sdist bdist_wheel
 
 # Publish

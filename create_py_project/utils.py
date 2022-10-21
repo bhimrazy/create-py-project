@@ -6,8 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 
 def generate_project(name: str, template: str, dest=""):
-    """This function generates project.
-    """
+    """This function generates project."""
     print("Generating....")
     project_path = os.path.join(BASE_DIR, "stubs", template)
     dest_path = os.path.join(dest, name)
